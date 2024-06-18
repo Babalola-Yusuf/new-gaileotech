@@ -83,16 +83,20 @@ nav ul{
     list-style: none;
     text-decoration: none;
   }
-  
-  .nav li{
+
+nav a:visited{
+    color: lime;
+}
+
+.nav li{
     list-style: none;
     text-decoration: none;
     display: inline-flex;
     padding: 0px;
     text-align: right;
-  }
+ }
 
-#navButton {
+.navButton {
   display: inline-block;
   padding: 10px 20px;
   color: white;
@@ -101,10 +105,11 @@ nav ul{
   cursor: pointer;
 }
 
-#navButton:hover {
+.navButton:hover {
   background-color: black;
-  color: #d8a71d;
+  color: #d8a71d 
 }
+
 
 .text-bg{
     width: 80%;
