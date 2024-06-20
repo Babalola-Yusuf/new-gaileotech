@@ -83,7 +83,9 @@ nav ul{
     list-style: none;
     text-decoration: none;
   }
-
+nav a:link{
+  color: white;
+}
 nav a:visited{
     color: lime;
 }
